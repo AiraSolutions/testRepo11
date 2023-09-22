@@ -39,7 +39,7 @@ if (process.env.MOOD == "DEV") {
     app.use(`/brand`, branRouter)
 
     app.all('*', (req, res, next) => {
-        res.status(404).send("In-valid Routing Plz check url or method")
+        res.status(404).send("In-valid Rou4ting Plz check url or method")
     })
 
     app.use(globalErrorHandling)
